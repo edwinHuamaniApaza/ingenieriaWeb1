@@ -398,3 +398,39 @@ label {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+/* ------------------ */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.accordion-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+.accordion-content {
+    display: none;
+}
+.accordion-content.active {
+    display: block;
+}
