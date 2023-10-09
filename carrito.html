@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+<!-- estilos -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    .accordion-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        text-align: left;
+        width: 100%;
+        display: block;
+    }
+    .accordion-content {
+        display: none;
+    }
+    .accordion-content.active {
+        display: block;
+    }
+</style>
+
+<!-- estilos -->
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">TiendaElectronic</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo"><i class="bi bi-bag-check"></i>   TiendaElectronic</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./productos.html">
+                            <i class="bi bi-bag-plus"></i>  Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 TiendaElectronic</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- Esto se va a completar con el JS -->
+                </div>
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <!-- valor calculado JS -->
+                            <p id="total">1000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+
+            </div>
+
+            <!--formulario de envio-->            
+           
+            <div class="container">
+                    <button class="carrito-acciones-comprar" onclick="toggleForm()">Dirección Envio</button>
+                    <div id="formContainer" class="accordion-content">
+                        <form id="shippingForm">
+                            <div class="form-group">
+                                <label for="name">Ciudad:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Dirección de envío:</label>
+                                <input type="text" id="address" name="address" required>
+                            </div>
+                            <button type="submit" class="carrito-acciones-vaciar">Guardar</button>
+                        </form>
+                    </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        function toggleForm() {
+            var formContainer = document.getElementById("formContainer");
+            if (formContainer.style.display === "block") {
+                formContainer.style.display = "none";
+            } else {
+                formContainer.style.display = "block";
+            }
+        }
+    </script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Laptop 01",
+        "imagen": "./img/laptop/L-01.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptop"
+        },
+        "precio": 1600
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Laptop 02",
+        "imagen": "./img/laptop/L-02.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptop"
+        },
+        "precio": 2200
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Laptop 03",
+        "imagen": "./img/laptop/L-03.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptop"
+        },
+        "precio": 1900
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Laptop 04",
+        "imagen": "./img/laptop/L-04.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptop"
+        },
+        "precio": 2600
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "./img/laptop/L-05.jpg",
+        "categoria": {
+            "nombre": "Laptops",
+            "id": "laptop"
+        },
+        "precio": 3400
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Celulares 01",
+        "imagen": "./img/celulares/C-01.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 900
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Celulares 02",
+        "imagen": "./img/celulares/C-02.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 1800
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Celulares 03",
+        "imagen": "./img/celulares/C-03.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 1450
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Celulares 04",
+        "imagen": "./img/celulares/C-04.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 1675
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Celulares 05",
+        "imagen": "./img/celulares/C-05.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 890
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Celulares 06",
+        "imagen": "./img/celulares/C-06.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 999
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Celulares 07",
+        "imagen": "./img/celulares/C-07.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 1250
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Celulares 08",
+        "imagen": "./img/celulares/C-08.jpg",
+        "categoria": {
+            "nombre": "Celulares",
+            "id": "Celulares"
+        },
+        "precio": 1800
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Reloj 01",
+        "imagen": "./img/relojes/R-01.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "relojes"
+        },
+        "precio": 99
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Reloj 02",
+        "imagen": "./img/relojes/R-02.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "relojes"
+        },
+        "precio": 400
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Reloj 03",
+        "imagen": "./img/relojes/R-03.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "relojes"
+        },
+        "precio": 560
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Reloj 04",
+        "imagen": "./img/relojes/R-04.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "relojes"
+        },
+        "precio": 100
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Reloj 05",
+        "imagen": "./img/relojes/R-05.jpg",
+        "categoria": {
+            "nombre": "Relojes",
+            "id": "relojes"
+        },
+        "precio": 600
+    }
+]
